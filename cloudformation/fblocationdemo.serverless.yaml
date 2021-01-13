@@ -157,7 +157,7 @@ Resources:
         Facebook bot to help determine various location information based on
         different inputs
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: nodejs10.x
       CodeUri: s3://cf-templates-ijazr0umwux6-us-east-1/fb-location-demo-lambda1.zip
       MemorySize: 128
       Timeout: 10
